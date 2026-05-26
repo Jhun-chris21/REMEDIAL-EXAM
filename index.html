@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Christian Solano Durana - Portfolio</title>
+
+  <!-- Connect CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ========================= -->
+  <!-- SIDE NAVIGATION -->
+  <!-- ========================= -->
+
+  <nav>
+    <h2 class="logo">MyPortfolio</h2>
+    <a href="#hero">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+
+  <!-- ========================= -->
+  <!-- MAIN CONTENT -->
+  <!-- ========================= -->
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <header id="hero">
+      <div class="hero-content">
+        <h1>DURANA, CHRISTIAN SOLANO</h1>
+        <p class="title">
+          IT Student & Aspiring Web Developer
+        </p>
+        <p class="tagline">
+          Building solutions, designing systems, and turning ideas into reality.
+        </p>
+        <a href="#contact" class="btn">
+          Get In Touch
+        </a>
+      </div>
+    </header>
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a dedicated Information Technology student with a strong passion for web development, database design, and system management. I have been developing my skills in creating functional and user-friendly websites, as well as designing and implementing databases for various applications.
+      </p>
+      <p>
+        I am hardworking, eager to learn new technologies, and always ready to take on challenges that help me grow professionally. My goal is to use my knowledge to build efficient systems that help communities and organizations manage their data better. I believe in continuous learning and strive to deliver quality work in every project I handle.
+      </p>
+    </section>
+
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience">
+      <h2>Work & Training Experience</h2>
+
+      <!-- EXPERIENCE 1 -->
+      <div class="job">
+        <h3>Student Developer / Intern</h3>
+        <p>
+          <strong>University IT Department</strong> | 2026 - Present
+        </p>
+        <ul>
+          <li>Assisted in developing and maintaining university websites and student portals.</li>
+          <li>Designed database structures and created ERD/EER diagrams for various school projects.</li>
+          <li>Used XAMPP, MySQL, and phpMyAdmin to manage and organize data efficiently.</li>
+          <li>Collaborated with teams to troubleshoot technical issues and improve system performance.</li>
+        </ul>
+      </div>
+
+
+      <!-- EXPERIENCE 2 -->
+      <div class="job">
+        <h3>Freelance Web Designer</h3>
+        <p>
+          <strong>Self-Employed / Online Projects</strong> | 2025 - Present
+        </p>
+        <ul>
+          <li>Created responsive and modern websites for small businesses and local clients.</li>
+          <li>Built contact forms, navigation systems, and interactive features using HTML, CSS, and JavaScript.</li>
+          <li>Ensured websites are mobile-friendly and easy to navigate for all users.</li>
+          <li>Provided technical support and updates to clients after project completion.</li>
+        </ul>
+      </div>
+
+    </section>
+
+
+    <!-- EDUCATION SECTION -->
+    <section id="education">
+      <h2>Educational Background</h2>
+
+      <div class="education-card">
+        <h3>Bachelor of Science in Information Technology</h3>
+        <p><strong>University of Eastern Philippines</strong></p>
+        <p>Expected Graduation: 2028</p>
+        <p class="edu-note">• Currently pursuing degree with focus on Web Development and Database Management.</p>
+      </div>
+
+      <div class="education-card">
+        <h3>Senior High School - ICT Strand</h3>
+        <p><strong>Rosario National High School</strong></p>
+        <p>Graduated: 2023</p>
+        <p class="edu-note">• Completed high school with specialization in Computer Systems Servicing and Programming.</p>
+      </div>
+
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <p class="skill-intro">These are the tools and technologies I am skilled in and continue to practice:</p>
+      <ul class="skills-list">
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript</li>
+        <li>PHP & MySQL</li>
+        <li>Database Design (ERD / EER)</li>
+        <li>phpMyAdmin & XAMPP</li>
+        <li>Bootstrap Framework</li>
+        <li>Responsive Web Design</li>
+        <li>Git & Version Control</li>
+      </ul>
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <h2>My Projects</h2>
+
+      <div class="education-card">
+        <h3>Barangay Record Management System</h3>
+        <p>
+          A database-driven system designed to store resident information, household data, and health records. Includes features for searching, updating, and generating reports easily. Built using HTML, CSS, PHP, and MySQL.
+        </p>
+      </div>
+
+      <div class="education-card">
+        <h3>Personal Portfolio Website</h3>
+        <p>
+          This very website you are viewing! A responsive portfolio created to showcase my profile, education, skills, and projects. Designed with modern layout and smooth navigation for all devices.
+        </p>
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <p class="contact-note">
+        Feel free to reach out to me for project collaborations, inquiries, or any opportunity. I am always open to work and new ideas!
+      </p>
+
+      <!-- CONTACT DETAILS -->
+      <div class="contact-details">
+        <p><strong>Email:</strong> duranachristian058@gmail.com</p>
+        <p><strong>Phone / WhatsApp:</strong> 09272781383</p>
+      </div>
+
+      <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" required placeholder="Enter your full name...">
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" required placeholder="Enter your email...">
+
+        <label for="phone">Mobile Number</label>
+        <input type="tel" id="phone" placeholder="Enter your contact number...">
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" required placeholder="What is this regarding?">
+
+        <label for="message">Your Message</label>
+        <textarea id="message" rows="5" required placeholder="Write your message or inquiry here..."></textarea>
+
+        <button type="submit">
+          Send Message
+        </button>
+      </form>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+      <p>
+        &copy; 2026 DURANA, CHRISTIAN SOLANO. All Rights Reserved.
+      </p>
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </footer>
+
+  </main>
+
+</body>
+</html>
